@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annpurna Srivastava</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(91, 88, 88);
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 10px 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    font-size: 20px;
+    color: cyan;
+  }
+
+  .left {
+    font-size: x-large;
+    margin-bottom: 10px;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 20px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .leftSection {
+    font-size: 2.5rem;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .rightSection img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+  }
+
+  .aboutSection {
+    max-width: 90vw;
+    margin: 50px auto;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+
+  .aboutSection h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .skill, .blue {
+    color: rgb(8, 231, 239);
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: grey;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+
+  main hr {
+    border: 0;
+    background: grey;
+    height: 1px;
+    margin: 40px 20px;
+  }
+
+  #element {
+    color: rgb(8, 231, 239);
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .leftSection {
+      font-size: 2rem;
+    }
+
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    nav ul {
+      flex-direction: column;
+    }
+
+    nav ul li {
+      margin: 8px 0;
+    }
+
+    .firstSection {
+      flex-direction: column;
+      margin: 40px 20px;
+    }
+
+    .rightSection img {
+      margin-top: 20px;
+    }
+
+    .aboutSection {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  }
+</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Annpurna's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects">Projects</a></li>   
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,I am<span class="blue"> Annpurna Srivastava</span> 
+                <div><span id="element"></span> </div>
+                  
+            </div>
+              <div class="rightSection">
+                <img src="bg.jpeg" alt="Annpurna Srivastava" style="width: 60%; height: auto;margin:50px 0;border-radius: 10%;">
+              </div>
+
+        </section>
+
+         <section class="aboutSection">
+      <h1>About Me</h1>
+      <p>Hello! I’m <span class="blue skill">Annpurna Srivastava</span>, a passionate and curious web developer from Azamgarh ,Uttar Pradesh. My goal is to create impactful and user-friendly web applications that solve real-world problems and deliver great experiences.</p>
+      <p>I completed my Graduation from <span class="skill">JIS UNIVERSITY Kolkata in B.Tech (CSE)</span> with an average CGPA of <strong class="skill">8.83.</strong>
+        Currently,I have <span class="skill">MERN (MongoDB,Express.js,React.js,Node.js)</span> stack development skills and I am continuously learning new technologies to enhance my expertise. </p>
+      </p>
+
+    </section>
+        <hr>
+
+        <!-- <section class="secondSection">
+            <span >What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="dev.jpg" class="image-top">
+                    <div class="vertical-title">
+                        Web Development Intern May 2025 Unified Mentor
+                    </div>
+                    <div class="vertical-desc">
+                        Leaning web development skills and working on real-world projects.
+                    </div>
+
+                </div>
+              
+            </div>
+        </section> -->
+    </main>
+
+     <main>
+   
+  </main>
+
+    <footer>
+        <div class="flex">
+
+            <div class="footer">Annpurna's Portfolio||All rights Reserved</div>
+           
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: [' a Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
